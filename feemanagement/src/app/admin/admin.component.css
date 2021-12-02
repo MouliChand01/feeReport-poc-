@@ -1,0 +1,17 @@
+.adminbody{
+    background-image: url("src/assets/admin.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 700px;
+    color: ivory;
+}
+h1{
+    padding: 40px;
+}
+
+.link{
+    padding-left: 350px;
+}
+a{
+    color: ivory;
+}

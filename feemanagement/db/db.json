@@ -1,0 +1,86 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Mouli",
+      "email": "mouli@143ojas-it.com",
+      "sex": "male",
+      "course": "Python",
+      "fee": 10000,
+      "paid": 5000,
+      "due": 5000,
+      "address": "Hyderabad",
+      "contact": 9963292180
+    },
+    {
+      "id": 2,
+      "name": "Lucky",
+      "email": "Lucky@ojas-it.com",
+      "sex": "male",
+      "course": "Java",
+      "fee": 8000,
+      "paid": 2000,
+      "due": 6000,
+      "address": "Hyderabad",
+      "contact": 87090503489
+    },
+    {
+      "name": "sraven",
+      "email": "sraven@gmail.com",
+      "sex": "male",
+      "course": "FullStack",
+      "fee": 4000,
+      "paid": 2000,
+      "due": 200,
+      "address": "vizag",
+      "contact": "9666966855",
+      "id": 3
+    },
+    {
+      "name": "mohit",
+      "email": "mohit@143gmail.com",
+      "sex": "male",
+      "course": "Python",
+      "fee": 5000,
+      "paid": 4000,
+      "due": 1000,
+      "address": "canada",
+      "contact": "964020844",
+      "id": 4
+    }
+  ],
+  "accountants": [
+    {
+      "id": 101,
+      "name": "Mouli",
+      "email": "Mouli@gmail.com",
+      "password": "Mouli143",
+      "address": "Vizag",
+      "contact": 8956498987
+    },
+    {
+      "id": 102,
+      "name": "Lucky",
+      "email": "Lucky@gmail.com",
+      "password": "Lucky143",
+      "address": "Vizag",
+      "contact": 8956498987
+    },
+    {
+      "id": 103,
+      "name": "Suresh",
+      "email": "Suresh@gmail.com",
+      "password": "Suresh123",
+      "address": "Kakinada",
+      "contact": 8956498987
+    },
+    {
+      "name": "mohit",
+      "password": "34545323",
+      "email": "mohit@143gmail.com",
+      "address": "canada",
+      "contact": "9666966855",
+      "id": 104
+    }
+  ]
+}

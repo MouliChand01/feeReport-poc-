@@ -1,0 +1,28 @@
+<h1>View Student Data</h1>
+<table class="table table-striped">
+    <tr><th>StudentName</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>Course</th>
+        <th>FeeAmount</th>
+        <th>PaidAmount</th>
+        <th>DueAmount</th>
+        <th>Address</th>
+        <th>Contact</th>
+        <th colspan="2">Action</th></tr>
+
+        <tr *ngFor="let i of studentdata">
+            <td>{{i.name}}</td>
+            <td>{{i.email}}</td>
+            <td>{{i.sex}}</td>
+            <td>{{i.course}}</td>
+            <td>{{i.fee}}</td>
+            <td>{{i.paid}}</td>
+            <td>{{i.due}}</td>
+            <td>{{i.address}}</td>
+            <td>{{i.contact}}</td>
+            <td><button class="btn btn-danger">View</button></td>
+            <td><button (click)="Deldata(i.id)" class="btn btn-dark">Delete</button></td>
+        </tr>
+
+</table>

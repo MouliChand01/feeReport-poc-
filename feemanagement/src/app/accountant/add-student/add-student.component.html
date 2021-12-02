@@ -1,0 +1,29 @@
+<div class="card">
+    <div class="card-head">
+        <h1>ADD STUDENT FORM</h1>
+    </div>
+    <div class="card-body">
+        <form #studata=ngForm (ngSubmit)="AddStudent(studata.value)">
+            <table>
+                <tr><td><label for="name">Name :</label></td><td><input type="text" name="name" id="name" ngModel class="form-control" autofocus></td></tr>
+                <tr><td><label for="mail">Email :</label></td><td><input type="email" name="email" id="email" ngModel class="form-control"></td></tr>
+                <tr><td><label for="sex">Gender :</label></td><td><input type="radio" name="sex" id="sex" value="male" ngModel >Male
+                                                                  &nbsp;&nbsp;<input type="radio" name="sex" id="sex" value="Female" ngModel >Female</td></tr>
+                <tr><td><label for="course">Course :</label></td>
+                                    <td><select name="course" id="course" class="form-control" ngModel>
+                                        <option selected hidden>--Select course--</option>
+                                        <option value="Java">Java</option>
+                                        <option value="Python">Python</option>
+                                        <option value="FullStack">FullStack</option>
+                                    </select></td></tr>
+                <tr><td><label for="fee">Fee :</label></td><td><input type="number" name="fee" id="fee" class="form-control" ngModel></td></tr>
+                <tr><td><label for="paid">Paid :</label></td><td><input type="number" name="paid" id="paid" class="form-control" ngModel></td></tr>
+                <tr><td><label for="due">Due:</label></td><td><input type="number" name="due" id="due" class="form-control" ngModel></td></tr>
+                <tr><td><label for="address">Address :</label></td><td><input type="text" name="address" id="address" class="form-control" ngModel></td></tr>
+                <tr><td><label for="contact">Contact :</label></td><td><input type="tel" name="contact" id="contact" class="form-control" ngModel></td></tr>
+                <tr><td colspan="2"><input id="btn"  class="btn btn-info" type="submit" value="ADD STUDENT"></td></tr>
+            </table>
+        </form>
+    </div>
+</div>
+

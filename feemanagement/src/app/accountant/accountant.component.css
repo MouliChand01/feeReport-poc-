@@ -1,0 +1,17 @@
+.accountdody{
+    background-image: url("src/assets/account1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+h1{
+    padding: 40px;
+}
+
+.link{
+    padding-left: 350px;
+}
+a{
+    color: black;
+}

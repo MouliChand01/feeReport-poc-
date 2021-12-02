@@ -1,0 +1,23 @@
+
+<div class="card">
+    <div class="body-head">
+       <h1>ADD ACCOUNTANT</h1>
+    </div>
+    <div class="card-body">
+        <form #myform="ngForm" (ngSubmit)="Mydata(myform.value)">
+            
+                <label for="name">Name :</label><br>
+                <input type="text" name="name" id="name" class="form-control" ngModel autofocus><br>
+                <label for="pass">Password :</label><br>
+                <input type="password" name="password" id="pass" class="form-control"  ngModel><br>
+                <label for="email">Email :</label><br>
+                <input type="email" name="email" id="email" class="form-control"  ngModel><br>
+                <label for="address">Address :</label><br>
+                <textarea rows="5" cols="22" class="form-control" name="address" ngModel></textarea><br>
+                <label for="contact">Contact :</label><br>
+                <input type="tel" name="contact" id="contact" class="form-control"  ngModel><br><br>
+                <input id="btn" type="submit" value="ADD ACCOUNTANT">
+            
+        </form>
+    </div>
+</div>

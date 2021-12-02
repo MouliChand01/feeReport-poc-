@@ -1,0 +1,14 @@
+.card{
+    margin: 100px;
+
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family: cursive;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 10px;
+}

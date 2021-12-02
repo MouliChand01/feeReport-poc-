@@ -1,0 +1,18 @@
+<h1>View Accountant</h1>
+<table class="table table-striped">
+    <tr><th>Accountant Id</th>
+        <th>Accountant Name</th>
+        <th>Accountant Email</th>
+        <th>Accountant Password</th>
+        <th>Accountant Address</th>
+        <th>Accountant Contact</th>
+        <th colspan="2">Acction</th></tr>
+    <tr *ngFor="let i of accountdata"><td>{{i.id}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.password}}</td>
+        <td>{{i.address}}</td>
+        <td>{{i.contact}}</td>
+        <td><button class="btn btn-success" (click)="Deldata(i.id)">Delete</button></td>
+        <td><button class="btn btn-info">View</button></td></tr>
+</table>
